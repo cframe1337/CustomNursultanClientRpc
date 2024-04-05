@@ -1,43 +1,36 @@
 import os as o
 import sys as s
 import time as t
-import calendar as c
-import datetime as d
 
-from colorama import init, Fore
 from pypresence import Presence
 
-init(autoreset=True)
+def premain(userid: any, nickname: any):
+    if len(userid) != 0 and len(nickname) != 0:
+        main(userid, nickname)
+        o.system('pause')
+    else:
+        o.system('clear')
 
-def premain(userid: any):
-    assert len(userid) != 0
-    main(userid)
-    o.system("pause")
 
-
-def main(userid: any):
+def main(userid: any, nickname: any):
     rpc.update(
-        state=f"User ID: {userid}",
+        details=f"Username: {nickname}",
+        state=f"UID: {userid}",
         start=round(t.time()),
-        large_image="https://github.com/cframe1337/CustomWildClientRpc/blob/main/wild-icon-new.gif?raw=true",
-        large_text=f"Build: {c.month_name[d.datetime.today().month]}"
-                    + f" {d.datetime.today().day}, {d.datetime.today().year}",
-        buttons=[{"label": "Приобрести", "url": "https://wildclient.org/"},
-                 {"label": "ВКонтакте", "url": "https://vk.com/wildclient/"}])
+        large_image="https://github.com/cframe1337/CustomNursultanClientRpc/blob/main/nursultan-icon.gif?raw=true",
+        large_text=f"nursultan.fun",
+    )
+    s.stdout.write('\nНажмите Enter чтобы закрыть программу.\n')
 
-    s.stdout.write(Fore.YELLOW + '\nНажмите Enter чтобы закрыть программу.\n')
-
-
-def title(text: str):
-    o.system(f'title {text}')
-
+    
+def c_input(input_target: str):
+    s.stdout.write(f'Input your {input_target}: ')
+    return input()
 
 if __name__ == '__main__':
-    rpc = Presence(client_id=1209164668015218718)
+    rpc = Presence(client_id=1225767284824346725)
     # Здесь вы можете использовать свой клиент айди скопированный в проекте на Discord Developers Portal
     # You can use own client id that you copied from project at Discord Developers Portal
     rpc.connect()
 
-    s.stdout.write(Fore.RED + 'Input your uid' + Fore.YELLOW + ':' + Fore.WHITE + ' ')
-    uid = input()
-    premain(uid)
+    premain(c_input())
