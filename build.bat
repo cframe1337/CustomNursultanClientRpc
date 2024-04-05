@@ -1,5 +1,5 @@
 @echo off
-pyinstaller main.py -n "CustomWildClientRPC" --onefile
+pyinstaller main.py -n "CustomNursultanClientRPC" --onefile
 
 :: Для преобразования вашего скрипта в exe программу Вы можете использовать Pyinstaller
 :: To change python scripts in exe programs you can use Pyinstaller
