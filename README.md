@@ -15,18 +15,20 @@ CustomNursultanClientRpc - это приложение на Python для Discor
 - **Real-time Updates**: Changes to your presence are reflected in real-time on Discord.
 - **Обновления в реальном времени**: Изменения в вашей активности отображаются в реальном времени в Discord.
 
-## Requirements
+## Requirements / Требования
 
 - Python 3.8 or higher
 - Discord Developer Account
 - Discord.py library
 - A Discord application with RPC enabled
 
-## Installation
+## Installation / Установка
 
 1. Clone this repository to your local machine:
+   Склонируйте этот репозиторий на свой компьютер:
 
 ```bash
 git clone https://github.com/cframe1337/CustomNursultanClientRpc.git
 ```
 Or install it with unpacking code archive.
+Или установите его распоковав архив с исходным кодом.
