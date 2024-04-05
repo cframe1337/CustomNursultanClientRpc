@@ -33,4 +33,4 @@ if __name__ == '__main__':
     # You can use own client id that you copied from project at Discord Developers Portal
     rpc.connect()
 
-    premain(c_input())
+    premain(c_input('userid'), c_input('username'))
