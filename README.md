@@ -31,4 +31,5 @@ CustomNursultanClientRpc - это приложение на Python для Discor
 git clone https://github.com/cframe1337/CustomNursultanClientRpc.git
 ```
 Or install it with unpacking code archive.
+
 Или установите его распоковав архив с исходным кодом.
