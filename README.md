@@ -1,6 +1,6 @@
 # CustomNursultanClientRpc
 ![Nursultan](https://repository-images.githubusercontent.com/782477293/1b1cab98-122e-4171-8f6a-2ec83a077d3d)
-🇺🇸 CustomNursultanClientRpc is a Discord Rich Presence (RPC) Python application that allows you to customize and display rich presence information on your Discord profile. 
+🇺🇸 CustomNursultanClientRpc is a Discord Rich Presence (RPC) Python application that allows you to customize and display rich presence information on your Discord profile 
 / 🇷🇺 CustomNursultanClientRpc - это приложение на Python для Discord Rich Presence (RPC), которое позволяет настраивать и отображать информацию о присутствии в вашем профиле Discord.
 
 ## Features / Особенности
@@ -28,6 +28,4 @@
 ```bash
 git clone https://github.com/cframe1337/CustomNursultanClientRpc.git
 ```
-Or install it with unpacking code archive.
-
-Или установите его распоковав архив с исходным кодом.
+🇺🇸 Or install it with unpacking code archive / 🇷🇺 Или установите его распоковав архив с исходным кодом.
