@@ -29,7 +29,6 @@ def c_input(input_target: str):
 
 if __name__ == '__main__':
     rpc = Presence(client_id=1225767284824346725)
-    # Здесь вы можете использовать свой клиент айди скопированный в проекте на Discord Developers Portal
     # You can use own client id that you copied from project at Discord Developers Portal
     rpc.connect()
 
